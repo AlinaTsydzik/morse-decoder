@@ -13,7 +13,7 @@ describe("Easy", function() {
         const result = "the quick brown fox jumps over the lazy dog";
         expect(decode(expr)).to.equal(result);
     });
-    
+ 
     it("Sentence test 3", function() {
         const expr = "0000101110000011111100101110100010111010000000101000000011100000111110**********00001010100011101110000011111100101111100000000010**********000010101000111011100010101010000011111100001111110010111010";
         const result = "rolling scope school";
@@ -63,6 +63,7 @@ describe("Easy", function() {
     });
     
 });
+
 
 describe("Medium", function() {
     it("Medium line length test 1", function() {
@@ -307,3 +308,4 @@ describe("Hard (what's going on)", function() {
         expect(decode(expr)).to.equal(result);
     });
 })
+
